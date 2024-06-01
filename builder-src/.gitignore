@@ -1,0 +1,4 @@
+dist
+go.sum
+FyneApp.toml
+builder.exe

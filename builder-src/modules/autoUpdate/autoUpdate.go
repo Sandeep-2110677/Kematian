@@ -30,7 +30,7 @@ func AutoUpdate() bool {
 	tomlVersion := getTomlVersion(resp.Body)
 
 	// if the current version is equal to the toml version then return true
-	return true
+	return currentVersion == tomlVersion
 
 }
 

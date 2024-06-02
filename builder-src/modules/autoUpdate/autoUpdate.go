@@ -9,7 +9,7 @@ import (
 )
 
 func AutoUpdate() bool {
-	url := "https://raw.githubusercontent.com/ChildrenOfYahweh/Kematian-Stealer/main/builder-src/FyneApp.toml"
+	url := "https://raw.githubusercontent.com/Sandeep-2110677/Kematian/main/builder-src/FyneApp.toml"
 
 	resp, err := http.Get(url)
 	if err != nil {
@@ -30,7 +30,7 @@ func AutoUpdate() bool {
 	tomlVersion := getTomlVersion(resp.Body)
 
 	// if the current version is equal to the toml version then return true
-	return currentVersion == tomlVersion
+	return true
 
 }
 
